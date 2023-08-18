@@ -1,0 +1,25 @@
+.flight-listing-container {
+	background-color: #f1f1f1;
+	/* padding: 20px; */
+}
+
+.flight-details {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flight-details-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.flight-details-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.no-flights-found {
+	text-align: center;
+	margin-top: 50px;
+}

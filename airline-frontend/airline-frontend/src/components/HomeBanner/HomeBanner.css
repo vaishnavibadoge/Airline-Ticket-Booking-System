@@ -1,0 +1,83 @@
+.cardBanner {
+	background-image: url("../../img/home-img.jpg");
+	background-repeat: no-repeat;
+	color: white !important;
+}
+
+.banner_body {
+	margin-top: 8%;
+}
+
+.fly {
+	font-size: 8vh;
+}
+
+.nonStop {
+	font-weight: 700;
+	font-size: 9vh;
+	margin-bottom: 0;
+	font-family: sans-serif;
+}
+
+.banner_text {
+	font-family: sans-serif;
+	font-size: 3vh;
+}
+
+.card-title {
+	color: white;
+}
+@media (max-width: 576px) {
+	.fly {
+		font-size: 16px;
+	}
+
+	.nonStop {
+		font-size: 14px;
+	}
+
+	.banner_text {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+	.fly {
+		font-size: 18px;
+	}
+
+	.nonStop {
+		font-size: 16px;
+	}
+
+	.banner_text {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.fly {
+		font-size: 20px;
+	}
+
+	.nonStop {
+		font-size: 18px;
+	}
+
+	.banner_text {
+		font-size: 16px;
+	}
+}
+
+.learn-more-button {
+	background-color: #c02d32;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.learn-more-button:hover {
+	background-color: #e53f3f;
+}

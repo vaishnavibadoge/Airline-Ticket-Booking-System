@@ -1,0 +1,35 @@
+.img {
+	background-repeat: "no-repeat";
+	height: "100vh";
+	background-size: cover;
+	display: flex;
+	background-position: center;
+}
+
+.text1:hover {
+	color: #26658d !important;
+}
+.btn1 {
+	height: 10vh;
+	background-color: #e7e7e7 !important;
+}
+.submit {
+	margin-left: 7.5%;
+}
+
+.card1 {
+	width: 18rem;
+}
+.imgsize {
+	width: 25%;
+}
+
+.hover-effect {
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hover-effect:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

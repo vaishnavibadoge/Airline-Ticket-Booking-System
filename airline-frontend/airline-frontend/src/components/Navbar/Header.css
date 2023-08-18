@@ -1,0 +1,64 @@
+.custom-height {
+	height: 40px; /* Adjust the height value as per your requirement */
+}
+.gradient-background {
+	background: linear-gradient(
+		to right,
+		#200755,
+		#26658d
+	); /* Adjust the gradient colors and direction as per your requirement */
+}
+.search-form {
+	position: relative;
+	/* margin-right: 15px; */
+}
+
+.search-form input[type="text"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	box-shadow: 0 2px 5px rgba(60, 58, 74, 0.1);
+	/* background-color: #eaf0e3; */
+	background-color: rgb(214, 219, 224);
+	width: 200px;
+	transition: width 0.3s ease;
+}
+
+.search-form input[type="text"]:focus {
+	width: 300px;
+}
+
+.search-form button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	padding: 10px;
+}
+
+#search_icon {
+	height: 18px;
+	background-color: rgb(214, 219, 224);
+}
+
+.navbtn {
+	border-radius: 8px;
+}
+
+.navbtn:hover {
+	background-color: white !important;
+	color: #200755 !important;
+}
+
+.increase-size {
+	transition: transform 0.3s ease;
+}
+
+.increase-size:hover {
+	transform: scale(1.2);
+}

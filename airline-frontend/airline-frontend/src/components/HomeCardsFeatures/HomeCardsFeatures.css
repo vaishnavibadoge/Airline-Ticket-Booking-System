@@ -1,0 +1,27 @@
+.hover-card-feature {
+	transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition effect on transform and box-shadow properties */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add initial box shadow */
+}
+
+.hover-card-feature:hover {
+	transform: scale(1.05); 
+	/* box-shadow: 0 4px 8px rgba(0, 0, 255, 0.4);  */
+	animation: glow 1s infinite;
+	box-shadow: 0 0 10px rgb(59, 106, 201);
+}
+
+@keyframes glow {
+	0% {
+		box-shadow: 0 0 10px rgb(59, 106, 201); /* Change to your desired glow color */
+	}
+	50% {
+		box-shadow: 0 0 20px rgb(59, 106, 201); /* Change to your desired glow color */
+	}
+	100% {
+		box-shadow: 0 0 10px rgb(59, 106, 201); /* Change to your desired glow color */
+	}
+}
+
+.feature_card{
+    /* background-color: #FAF9F6; */
+}

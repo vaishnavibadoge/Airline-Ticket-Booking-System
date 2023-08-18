@@ -1,0 +1,24 @@
+/* Add this CSS to your stylesheets or in a separate file */
+@keyframes glowing {
+    0% {
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4), 0px 0px 12px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .shadow-hover {
+    transition: box-shadow 0.3s ease-in-out;
+    /* background-color: #ebeae6; */
+    border-radius: 15px;
+  }
+  
+  .shadow-hover:hover {
+    animation: glowing 2s infinite;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4), 0px 0px 12px rgba(0, 0, 0, 0.3);
+  }
+  
